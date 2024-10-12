@@ -1,0 +1,237 @@
+*{
+scroll-behavior: smooth;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-family: "Montserrat", sans-serif;
+    font-family: "Handlee", cursive;
+
+}
+.logo img{
+
+  border: 2px solid #ddd;
+  border-radius: 50%;
+  width: 100px;
+  margin-top: 10 ;
+}
+
+.header{
+
+  background-color: darkcyan;
+  color: white;
+}
+
+.navmenu ul li{
+
+  list-style-type: none;
+  display: inline-block;
+
+}
+.navmenu ul li a{
+
+  color: white;
+  font-size: 32px;text-decoration: none;
+  padding: 10px;
+  display: block;
+  margin-top: 20px;
+
+
+
+}
+
+.navmenu ul li a:hover{
+  background-color: rgba(241, 196, 15,1.0);
+  padding: 10px;
+  border-radius: 10px;
+  color: black;
+  transform: scale(1.2);
+  margin: 10px;
+
+
+
+}
+
+.bannersection{
+
+  background: url(images/banner-image.jpg);
+background-position: center;
+background-attachment: fixed;
+
+background-size:cover ;
+background-repeat: no-repeat;
+text-align: center;
+padding: 100px;
+
+
+}
+
+.bannersection h1{
+  color: black;
+ cursive; 
+
+
+
+  font-size: 70px;
+  background-color:rgba(241, 196, 15,0.8);
+  width: 300px;
+  margin: 13px auto;
+
+}
+
+.bannersection p{
+  color:black;
+  font-weight: bold;
+  font-size:30px;
+  background-color:rgba(243, 156, 18,1.0);
+  width: 500px;
+  margin: 0 auto;
+
+
+}
+.bannersection .btn{
+
+  width: 200px;
+  font-size: 30px;
+  color: black;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: gold;
+  border: none;
+  
+
+}
+.bannersection .btn:hover{
+
+  background-color: darkturquoise;
+  color: white;
+  transform: scale(1.1);
+  border: none;
+}
+
+.aboutus{
+
+  text-align: center;
+  background-color: #ddd;
+  padding: 40px;
+}
+.aboutus h1{
+  font-size: 50px;
+  color: black;
+
+
+}
+.aboutus p{
+
+  font-size: 20px;
+  margin: 10px 15px;
+  color: black;
+}
+.cardmenu{
+  padding: 1%;
+}
+.card{
+  text-align: center;
+  transition: .5s ;
+
+
+}
+.card:hover{
+
+  transform: scale(1.1);
+  box-shadow: 10px 10px 15px 15px black;
+}
+.cardbody img{
+
+ max-width: 100%;
+ height: auto;
+  display:block;
+
+}
+.card h2{
+
+  color: black;
+  background-color: darkturquoise;
+  margin-top: 0px;
+  
+}
+.carddesc{
+
+  background-color: #ddd;
+}
+.card p{
+
+  color: black;
+  font-size: 20px;
+  
+}
+.contactmenu{
+  background-color: lightskyblue;
+  padding: 1%;
+}
+.contactdetials, h2{
+  color: black;
+  font-size: 30px;
+}.contactdetials ,p{
+  color: black;
+  font-size: 20px;
+}
+.contactdetials .btnn{
+
+  background-color: chartreuse;
+  color: black;
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 20px;
+  width: 150px;
+  border: 1px solid white;
+  font-weight: 600;
+  text-align: center;
+  display: block;
+
+}
+
+.contactdetials .btnn:hover{
+
+  background-color: deeppink;
+  color: white;
+  transform: scale(1.1);
+}
+
+.socilicons .icon{
+  font-size: 28px;
+  border: 2px solid white ;
+  border-radius: 50%;
+  background-color:white;
+  padding: 20px;
+  margin: 10px;
+
+
+}
+
+.socilicons .icon:hover{
+
+  transform: scale(1.1);
+background-color: rgb(195, 255, 0);
+color:white;
+border: none;
+}
+.footerall{
+  background-color: #060930;
+  padding: 1%;
+  color: white;
+  text-align: center;
+
+
+
+}
+.footermenu p{
+
+  color: white;
+ font-size: 24px;
+
+}
+
+
